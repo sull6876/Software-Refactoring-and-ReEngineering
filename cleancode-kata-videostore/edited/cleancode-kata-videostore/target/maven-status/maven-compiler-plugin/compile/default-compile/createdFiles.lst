@@ -1,0 +1,7 @@
+com\cleancode\martinfowler\videostore\RegularPrice.class
+com\cleancode\martinfowler\videostore\Customer.class
+com\cleancode\martinfowler\videostore\Rental.class
+com\cleancode\martinfowler\videostore\ChildrensPrice.class
+com\cleancode\martinfowler\videostore\NewReleasePrice.class
+com\cleancode\martinfowler\videostore\Price.class
+com\cleancode\martinfowler\videostore\Movie.class
