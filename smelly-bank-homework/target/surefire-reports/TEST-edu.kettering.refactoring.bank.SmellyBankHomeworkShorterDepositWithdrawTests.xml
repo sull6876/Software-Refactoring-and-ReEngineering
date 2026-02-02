@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.212" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.186" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\lizzi\AppData\Local\Temp\surefire17107498275921265730\surefirebooter-20260202161017388_3.jar C:\Users\lizzi\AppData\Local\Temp\surefire17107498275921265730 2026-02-02T16-10-17_224-jvmRun1 surefire-20260202161017388_1tmp surefire_0-20260202161017388_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\lizzi\AppData\Local\Temp\surefire4966744563571114148\surefirebooter-20260202163223536_3.jar C:\Users\lizzi\AppData\Local\Temp\surefire4966744563571114148 2026-02-02T16-32-23_350-jvmRun1 surefire-20260202163223536_1tmp surefire_0-20260202163223536_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lizzi\OneDrive - kettering.edu\Documents\Software-Refactoring-and-ReEngineering\smelly-bank-homework\target\test-classes;C:\Users\lizzi\OneDrive - kettering.edu\Documents\Software-Refactoring-and-ReEngineering\smelly-bank-homework\target\classes;C:\Users\lizzi\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\lizzi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\lizzi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\lizzi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\lizzi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lizzi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\lizzi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\lizzi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lizzi\AppData\Local\Temp\surefire17107498275921265730\surefirebooter-20260202161017388_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lizzi\AppData\Local\Temp\surefire4966744563571114148\surefirebooter-20260202163223536_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="report_shouldContainSummarySections" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.088"/>
-  <testcase name="highBalance_shouldTriggerVipNoteInReport" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.003"/>
-  <testcase name="withdrawal_fromSavingsThatWouldGoNegative_shouldBeDeclined" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.009"/>
+  <testcase name="report_shouldContainSummarySections" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.087"/>
+  <testcase name="highBalance_shouldTriggerVipNoteInReport" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.002"/>
+  <testcase name="withdrawal_fromSavingsThatWouldGoNegative_shouldBeDeclined" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.005"/>
   <testcase name="deposit_shouldIncreaseBalance" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.002"/>
   <testcase name="withdrawal_fromCheckingWithinOverdraft_shouldSucceed" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.001"/>
   <testcase name="largeTransaction_shouldFlagAccount" classname="edu.kettering.refactoring.bank.SmellyBankHomeworkShorterDepositWithdrawTests" time="0.002"/>
